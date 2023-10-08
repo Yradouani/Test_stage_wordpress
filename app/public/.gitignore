@@ -1,0 +1,24 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+wp-config.php
+
+# Ignore WordPress generated files
+.htaccess
+license.txt
+readme.html
+wp-content/uploads/
+
+# Ignore configuration files
+wp-config-sample.php
+wp-config-local.php
+
+# Ignore other generated files
+error_log
+*.log
+*.bak
+*.swp
+*.tmp
+*.cache
+
+node_modules/

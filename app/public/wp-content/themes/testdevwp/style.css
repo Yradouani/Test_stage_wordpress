@@ -1,0 +1,275 @@
+/*
+Theme Name: testdevwp
+*/
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+header {
+    height: 261px;
+    margin-bottom: 50px;
+}
+
+.header-home {
+    background: url("assets/images/shutterstock_1535402432.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.service-type-header {
+    background: #4AB7CD;
+}
+
+.header-contact {
+    background: black;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #080D0D;
+    margin: 10px 10px 40px 10px;
+}
+
+#main-container {
+    width: 65%;
+}
+
+#main-container p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+#home-description {
+    margin-bottom: 30px !important;
+}
+
+#services-container {
+    margin-top: 70px;
+}
+
+#services-container a div {
+    display: flex;
+    flex-direction: column;
+}
+
+#service-1,
+#service-2,
+#service-3,
+#service-4,
+#service-5 {
+    padding: 20px 15px;
+    color: white;
+    margin: 10px;
+    height: 200px;
+}
+
+#service-1,
+#service-2,
+#service-3 {
+    width: calc(50% - 20px);
+}
+
+#service-4,
+#service-5 {
+    width: calc(25% - 20px);
+}
+
+.version-title {
+    font-size: 28px;
+}
+
+.version-type {
+    font-size: 16px;
+}
+
+/*----------------Quote--------------------*/
+#quote {
+    background: #F5F5F5;
+    margin: 100px 10px;
+    padding: 25px 45px;
+    position: relative;
+}
+
+#quote:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: -40px;
+    /* ajustez la position verticale du triangle ici */
+    right: 5%;
+    transform: translateX(-50%);
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent #F5F5F5 transparent;
+}
+
+#quote p {
+    margin: 0;
+}
+
+#author {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+cite {
+    font-size: 32px;
+    font-weight: bold;
+    color: #343A40;
+}
+
+/*----------------------------FOOTER-----------------------*/
+footer {
+    background: #080D0D;
+    color: white;
+    padding: 50px 0 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+footer a {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+/*----------------------Single service page-------------------*/
+#content-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#content-container p {
+    margin: 0;
+}
+
+.single-service-img {
+    width: 350px;
+    height: 350px;
+}
+
+.single-version-type {
+    margin: 10px;
+    color: #4AB7CD;
+    font-weight: bold;
+}
+
+.single-service-description {
+    margin-left: 15px !important;
+}
+
+#service-price {
+    margin-bottom: 100px;
+}
+
+/*--------------------------all services of one service_type page------------------*/
+.service-block {
+    margin: 20px auto;
+    height: 255px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+#service-price {
+    font-size: 32px;
+}
+
+#service-price span {
+    font-weight: bold;
+}
+
+/*---------------Contact page--------------------*/
+#contact-container {
+    width: 45%;
+}
+
+#contact-container input[type="submit"] {
+    border: 3px solid #000000;
+    border-radius: 26px;
+    width: 160px;
+    height: 59px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #ffffff;
+}
+
+#error-email,
+#error-name,
+#error-firstname,
+#error-subject,
+#error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.confirm-msg {
+    margin-bottom: 250px;
+}
+
+.metabox-message {
+    color: red;
+}
+
+/*------------------All service types page--------------*/
+.service-type-box {
+    height: 200px;
+}
+
+/*------------------All services page--------------*/
+.service-box {
+    height: 200px;
+}
+
+.search-btn {
+    background: #4AB7CD;
+}
+
+.search-border {
+    border: 1px solid #E5E5E5;
+}
+
+/*-----------------------update service type backoffice--------------*/
+#update-img-container {
+    width: 100px;
+}
+
+/*-------------Paginate---------------*/
+.paginate-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.page-numbers {
+    padding: 5px 12px;
+    margin: 2px;
+}
+
+.page-numbers-container .page-numbers {
+    border: 1px solid #D0D0D0;
+}
+
+.page-numbers-container .page-numbers:hover {
+    border: 1px solid #4AB7CD;
+}
+
+.current-page {
+    background: #4AB7CD;
+    color: white;
+    border: 1px solid #4AB7CD;
+}
